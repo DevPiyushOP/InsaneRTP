@@ -1,0 +1,13 @@
+name: InsaneRTP
+main: com.yourplugin.insanertp.InsaneRTP
+version: 1.0
+api-version: 1.13
+commands:
+  rtp:
+    description: Random Teleport command
+    usage: /rtp
+    permission: insanertp.use
+  insanertp:
+    description: InsaneRTP admin commands
+    usage: /insanertp reload
+    permission: insanertp.admin

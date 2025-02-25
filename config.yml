@@ -1,0 +1,32 @@
+# InsaneRTP Configuration File
+
+# General Settings
+teleportRadius: 1000 # The maximum radius players can be teleported within
+worldName: "world" # The world where RTP should occur
+
+# Teleportation Settings
+rtpDelay: 5 # Time in seconds before teleportation occurs
+preventWaterTeleport: true # If true, players won't be teleported into water
+allowCameraMovement: true # If true, moving the camera won't cancel teleportation
+
+# Messages (Supports Hex Colors like &#00FF00) #dont use hex colors in teleportingActionBar
+prefix: "&#FBD708ɪ&#FBDB07ɴ&#FBE006s&#FBE405ᴀ&#FBE904ɴ&#FCED04ᴇ&#FCF203-&#FCF602ʀ&#FCFB01ᴛ&#FCFF00ᴘ &7| &f"
+teleportMessage: "You have been teleported to a random location!"
+noPermissionMessage: "&#FF0000You don't have permission to use this command!"
+rtpCountdownMessage: "&#FFFF00Teleporting in %time% seconds..."
+teleportingActionBar: "&aTeleporting in %time% seconds..."
+teleportCancelledMessage: "&#FF0000Teleport cancelled due to movement!"
+noSafeLocationMessage: "&#FF5555No safe location found. Try again later!"
+
+# Cooldowns and Limits
+useCooldown: true # Enable cooldown between RTPs
+cooldownTime: 60 # Cooldown time in seconds between RTP uses
+bypassCooldownPermission: "insanertp.bypasscooldown" # Permission to bypass cooldown
+
+# Safety Checks
+maxRetries: 10 # Maximum attempts to find a safe location before failing
+minimumY: 60 # Minimum Y level for teleportation to avoid caves
+maximumY: 256 # Maximum Y level for teleportation
+
+# Admin Commands
+reloadSuccessMessage: "&#00FF00Configuration reloaded successfully!"
